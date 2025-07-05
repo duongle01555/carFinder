@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "heart",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "28l2n00vd5",
+  "leftColumn": 53,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 53,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{app.addFavorite(currentItem.id);}}",
+  "parentColumnSpace": 7.2864227294921875,
+  "parentId": "9kszrpyyvp",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "8w0dqiwmzt",
+  "widgetName": "IconButton1"
+}

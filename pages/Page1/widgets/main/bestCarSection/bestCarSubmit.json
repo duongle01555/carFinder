@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "calculator",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "b2r5b9bxsp",
+  "leftColumn": 36,
+  "minWidth": 50,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 12,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "onClick": "{{app.calculateBestCar();}}",
+  "parentColumnSpace": 5.126922607421875,
+  "parentId": "47hy1vtado",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 51,
+  "topRow": 3,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "ds1pbs9jlb",
+  "widgetName": "bestCarSubmit"
+}

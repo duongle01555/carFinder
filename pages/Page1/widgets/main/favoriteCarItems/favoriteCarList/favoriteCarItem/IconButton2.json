@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 5,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "heart-broken",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "phfdfeqo3m",
+  "leftColumn": 53,
+  "minWidth": 50,
+  "mobileBottomRow": 5,
+  "mobileLeftColumn": 53,
+  "mobileRightColumn": 57,
+  "mobileTopRow": 1,
+  "needsErrorInfo": false,
+  "onClick": "{{app.removeFavorite(currentItem.id);}}",
+  "parentColumnSpace": 12.279647827148438,
+  "parentId": "qm2er8x7y1",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "topRow": 1,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "n212m0gijw",
+  "widgetName": "IconButton2"
+}

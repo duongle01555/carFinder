@@ -1,0 +1,36 @@
+{
+  "gitSyncId": "685dd6c6bb335a2d5fc00537_b5fd9246-cb96-4820-82ad-99c12d6cbdc2",
+  "id": "Page1_data",
+  "unpublishedCollection": {
+    "name": "data",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "carItems",
+        "value": "undefined"
+      },
+      {
+        "name": "favoriteCarItems",
+        "value": "undefined"
+      },
+      {
+        "name": "activeCar",
+        "value": "undefined"
+      },
+      {
+        "name": "bestCar",
+        "value": "undefined"
+      },
+      {
+        "name": "carScore",
+        "value": "undefined"
+      },
+      {
+        "name": "carData",
+        "value": "[{\n  id: \"1\",\n  name: \"Toyota Cambri\",\n  price: 3500,\n  buildYear: \"2003\",\n  img: \"https://i.imgur.com/0u5TLhb.jpeg\",\n  brand: \"Toyota\",\n  note: \"very reliable\",\n  favorite: false\n}, {\n  id: \"2\",\n  name: \"Mazda 2\",\n  price: 5000,\n  buildYear: \"2014\",\n  img: \"https://img.pcauto.com/model/images/touPic/my/Mazda-2-Sedan_134.png\",\n  brand: \"Mazda\",\n  note: \"looks super cool\",\n  favorite: false\n}, {\n  id: \"3\",\n  name: \"Huyndai i30\",\n  price: 5500,\n  buildYear: \"2010\",\n  img: \"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2018_Hyundai_i30_SE_Nav_T-GDi_1.3_Front.jpg/330px-2018_Hyundai_i30_SE_Nav_T-GDi_1.3_Front.jpg\",\n  brand: \"Huyndai\",\n  note: \"my friend Grace drives this car\",\n  favorite: true\n}]"
+      }
+    ]
+  }
+}
