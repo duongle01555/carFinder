@@ -26,10 +26,10 @@
         "key": "body"
       }
     ],
+    "executeOnLoad": false,
     "fullyQualifiedName": "app.removeFavorite",
     "name": "removeFavorite",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

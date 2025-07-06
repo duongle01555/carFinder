@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "metrics_min_js"
+  ],
+  "defs": "{\"!name\":\"LIB/metrics_min_js\",\"metrics_min_js\":{}}",
+  "name": "metrics_min_js",
+  "uidString": "metrics_min_js_https://cdn.jsdelivr.net/npm/mongodb@6.17.0/lib/cmap/metrics.min.js",
+  "url": "https://cdn.jsdelivr.net/npm/mongodb@6.17.0/lib/cmap/metrics.min.js",
+  "version": "6.17.0"
+}
