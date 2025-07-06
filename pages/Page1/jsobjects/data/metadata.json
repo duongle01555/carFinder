@@ -9,23 +9,23 @@
     "variables": [
       {
         "name": "carItems",
-        "value": "undefined"
+        "value": "null"
       },
       {
         "name": "favoriteCarItems",
-        "value": "undefined"
+        "value": "null"
       },
       {
         "name": "activeCar",
-        "value": "undefined"
+        "value": "null"
       },
       {
         "name": "bestCar",
-        "value": "undefined"
+        "value": "null"
       },
       {
         "name": "carScore",
-        "value": "undefined"
+        "value": "null"
       },
       {
         "name": "carData",

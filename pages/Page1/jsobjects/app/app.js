@@ -1,33 +1,36 @@
 export default {
 	init () {
-		data.carItems = appsmith.store.carItems || data.carData;
-		data.favoriteCarItems = data.carItems.filter((carItem) => carItem.favorite == true);
-		data.activeCar = appsmith.store.activeCar || 1;
+		data.carItems = appsmith.store.carItems || Api_car_items.data;
+		app.refreshfavoriteCarItems(),
+			data.activeCar = appsmith.store.activeCar || 1;
 		data.carScore = appsmith.store.carScore || "not available";
 		data.bestCar = appsmith.store.bestCar || {name: "Not available", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtqlFt5SZfpRi-jda556o-QKgpYfj5Cy24jg&s"};
+		console.log(data.carItems);
+	},
+	refreshfavoriteCarItems () {
+		data.favoriteCarItems = data.carItems.filter((carItem) => carItem.favorite == true);
 	},
 	updateCar (id, update) {
 		data.carItems = [...data.carItems[id], ...update];
 		storeValue('carItems', data.carItems);
-		this.init();
 	},
 	addFavorite (id) {
 		if (data.carItems[id-1].favorite == false) {
 			data.carItems[id-1].favorite = true;
 			storeValue('carItems', data.carItems);
-			this.init();
+			app.refreshfavoriteCarItems();
 		}
 	},
 	editNote (id, note) {
 		data.carItems[id].note = note;
 		storeValue('carItems', data.carItems);
-		this.init();
+		app.refreshfavoriteCarItems();
 	},
 	removeFavorite (id) {
 		if (data.carItems[id-1].favorite == true) {
 			data.carItems[id-1].favorite = false;
 			storeValue('carItems', data.carItems);
-			this.init();
+			app.refreshfavoriteCarItems();
 		}
 	},
 	calculateBestCar () {
@@ -65,6 +68,5 @@ export default {
 		}
 		storeValue('carScore', String(bestScore));
 		storeValue('bestCar', data.bestCar);
-		this.init();
 	}
 }

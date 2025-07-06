@@ -1,10 +1,11 @@
 export default {
-	carItems: undefined,
-	favoriteCarItems: undefined,
-	activeCar: undefined,
-	bestCar: undefined,
-	carScore: undefined,
-	carData: [
+	carItems: null,
+	favoriteCarItems: null,
+	activeCar: null,
+	bestCar: null,
+	carScore: null,
+	carData: /* JSON.parse(Api_car_items.run()) */
+	[
 		{
 			id: "1", name: "Toyota Cambri", price: 3500, buildYear: "2003", img: "https://i.imgur.com/0u5TLhb.jpeg", brand: "Toyota", note: "very reliable", favorite: false
 		},
