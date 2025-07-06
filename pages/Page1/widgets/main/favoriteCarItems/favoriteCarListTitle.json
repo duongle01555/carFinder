@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 5,
+  "bottomRow": 6,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 19,
   "shouldTruncate": false,
-  "text": "Favorites",
+  "text": "My Favorite Cars",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 1,

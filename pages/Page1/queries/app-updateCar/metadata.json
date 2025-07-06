@@ -29,10 +29,10 @@
         "key": "body"
       }
     ],
+    "executeOnLoad": false,
     "fullyQualifiedName": "app.updateCar",
     "name": "updateCar",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
